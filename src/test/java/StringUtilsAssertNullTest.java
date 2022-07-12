@@ -17,7 +17,7 @@ public class StringUtilsAssertNullTest {
 
 
 	/**
-	 * Test method to test for null with assertNull after passing null
+	 * Test method to test for Null with assertNull after passing null
 	 */
 	@Test
 	void givenNullString_NullReturned() {
@@ -27,7 +27,7 @@ public class StringUtilsAssertNullTest {
 	}
 
 	/**
-	 * Test method to test for null with assertNull with message after passing empty string ("")
+	 * Test method to test for Null with assertNull with message after passing empty string ("")
 	 */
 	@Test
 	void givenEmptyString_EmptyStringReturnedWithMessage() {
@@ -37,7 +37,7 @@ public class StringUtilsAssertNullTest {
 	}
 
 	/**
-	 * Test method to test for null with assertNull with message after passing String to reverse
+	 * Test method to test for Null with assertNull with message after passing String to reverse
 	 */
 	@Test
 	void givenNonNullString_ReversedStringReturned() {
