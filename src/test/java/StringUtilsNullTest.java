@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 /**
- * StringUtilsTest class
+ * StringUtilsNullTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
  */
 
 @SuppressWarnings("ConstantConditions")
-public class StringUtilsTest {
+public class StringUtilsNullTest {
 
 
 	/**
