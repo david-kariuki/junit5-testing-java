@@ -1,23 +1,23 @@
-import org.junit.jupiter.api.Test;
-
-import java.util.function.Supplier;
-
-import static org.junit.jupiter.api.Assertions.assertNull;
-
 /**
- * StringUtilsNullTest class
+ * StringUtilsAssertNullTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
  * @since 12/7/2022
  */
 
+import org.junit.jupiter.api.Test;
+
+import java.util.function.Supplier;
+
+import static org.junit.jupiter.api.Assertions.assertNull;
+
 @SuppressWarnings("ConstantConditions")
-public class StringUtilsNullTest {
+public class StringUtilsAssertNullTest {
 
 
 	/**
-	 * Test method to test for null with assertNull after passing null
+	 * Test method to test for Null with assertNull after passing null
 	 */
 	@Test
 	void givenNullString_NullReturned() {
@@ -27,7 +27,7 @@ public class StringUtilsNullTest {
 	}
 
 	/**
-	 * Test method to test for null with assertNull with message after passing empty string ("")
+	 * Test method to test for Null with assertNull with message after passing empty string ("")
 	 */
 	@Test
 	void givenEmptyString_EmptyStringReturnedWithMessage() {
@@ -37,7 +37,7 @@ public class StringUtilsNullTest {
 	}
 
 	/**
-	 * Test method to test for null with assertNull with message after passing String to reverse
+	 * Test method to test for Null with assertNull with message after passing String to reverse
 	 */
 	@Test
 	void givenNonNullString_ReversedStringReturned() {
