@@ -1,5 +1,5 @@
 /**
- * AssertionFailTest class
+ * AssertionFail_Test class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
-public class AssertionFailTest {
+public class AssertionFail_Test {
 
 	/**
 	 * Usage 1 - @Test not implemented with fail()
