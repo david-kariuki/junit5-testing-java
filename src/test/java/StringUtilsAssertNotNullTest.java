@@ -1,5 +1,5 @@
 /**
- * StringUtilsNullTest class
+ * StringUtilsAssertNotNullTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
@@ -10,20 +10,32 @@ import org.junit.jupiter.api.Test;
 
 import java.util.function.Supplier;
 
-import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SuppressWarnings("ConstantConditions")
-public class StringUtilsNullTest {
+public class StringUtilsAssertNotNullTest {
 
 
 	/**
 	 * Test method to test for null with assertNull after passing null
 	 */
 	@Test
-	void givenNullString_NullReturned() {
+	void givenNullString_NullReturnedWithMessage() {
 		String actual = StringUtils.reverse(null);
+		String message = "Actual String should not be null -> Passed : null !!! ";
 
-		assertNull(actual); // Assert without message
+		assertNotNull(actual, message); // assertNotNull with message
+	}
+
+	/**
+	 * Test method to test for null with assertNull after passing null
+	 */
+	@Test
+	void givenNullString_NullReturnedWithMessage_FromMessageSupplier() {
+		String actual = StringUtils.reverse(null);
+		Supplier<String> messageSupplier = () -> "Actual String should not be null -> Passed : null !!! ";
+
+		assertNotNull(actual, messageSupplier); // assertNotNull with message from message supplier
 	}
 
 	/**
@@ -33,7 +45,8 @@ public class StringUtilsNullTest {
 	void givenEmptyString_EmptyStringReturnedWithMessage() {
 		String actual = StringUtils.reverse("");
 
-		assertNull(actual, "The actual string should be null -> Passed : \"\" !!"); // Assert with message
+		// Assert with message
+		assertNotNull(actual, "The actual string should be null -> Passed : \"\"!!");
 	}
 
 	/**
@@ -44,6 +57,6 @@ public class StringUtilsNullTest {
 		String actual = StringUtils.reverse("ABCD");
 		Supplier<String> messageSupplier = () -> "The actual string should be null -> Passed : " + actual + " !!";
 
-		assertNull(actual, messageSupplier); // Assert with java 8 MessageSupplier
+		assertNotNull(actual, messageSupplier); // Assert with java 8 MessageSupplier
 	}
 }
