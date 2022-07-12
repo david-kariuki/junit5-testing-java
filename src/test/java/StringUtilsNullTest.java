@@ -33,7 +33,7 @@ public class StringUtilsNullTest {
 	void givenEmptyString_EmptyStringReturnedWithMessage() {
 		String actual = StringUtils.reverse("");
 
-		assertNull(actual, "The actual string should be null!!"); // Assert without message
+		assertNull(actual, "The actual string should be null -> Passed : \"\" !!"); // Assert with message
 	}
 
 	/**
@@ -42,7 +42,7 @@ public class StringUtilsNullTest {
 	@Test
 	void givenNonNullString_ReversedStringReturned() {
 		String actual = StringUtils.reverse("ABCD");
-		Supplier<String> messageSupplier = () -> "The actual string should be null!!";
+		Supplier<String> messageSupplier = () -> "The actual string should be null -> Passed : " + actual + " !!";
 
 		assertNull(actual, messageSupplier); // Assert with java 8 MessageSupplier
 	}
