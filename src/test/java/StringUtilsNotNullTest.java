@@ -1,9 +1,3 @@
-import org.junit.jupiter.api.Test;
-
-import java.util.function.Supplier;
-
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-
 /**
  * StringUtilsNotNullTest class
  *
@@ -11,6 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
  * @apiNote - This test class contains test methods for the StringUtils.java class
  * @since 12/7/2022
  */
+
+import org.junit.jupiter.api.Test;
+
+import java.util.function.Supplier;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SuppressWarnings("ConstantConditions")
 public class StringUtilsNotNullTest {
