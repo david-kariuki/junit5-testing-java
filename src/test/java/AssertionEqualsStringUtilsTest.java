@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SuppressWarnings("ConstantConditions")
-public class AssertionEquals_StringUtilsTest {
+public class AssertionEqualsStringUtilsTest {
 
 
 	/**
