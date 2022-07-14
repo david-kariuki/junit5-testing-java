@@ -19,7 +19,7 @@ public class AssertionNotSameTest {
     @Test
     public void testAssertNotSameWithDifferentObject() {
         String actual = "hello";
-        String expected = "hell";
+        String expected = "hello there";
         assertNotSame(expected, actual);
     }
 
