@@ -1,5 +1,5 @@
 /**
- * StringUtilsAssertNotEqualsTest class
+ * AssertionNotEqualsStringUtilsTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 @SuppressWarnings("ConstantConditions")
-public class StringUtilsAssertNotEqualsTest {
+public class AssertionNotEqualsStringUtilsTest {
 
 
 	/**
