@@ -2,20 +2,15 @@
  * AssertArrayEqualsTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains test methods for the StringUtils.java class
  * @since 12/7/2022
  */
 
 import org.junit.jupiter.api.Test;
 
-import java.util.function.Supplier;
-
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SuppressWarnings({"ExcessiveLambdaUsage"})
 public class AssertArrayEqualsTest {
-
 
 	/**
 	 * Test method to test for Equals with AssertArrayEquals for equal arrays
