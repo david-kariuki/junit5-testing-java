@@ -1,5 +1,5 @@
 /**
- * AssertionEquals_StringUtilsTest class
+ * AssertEqualsTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
