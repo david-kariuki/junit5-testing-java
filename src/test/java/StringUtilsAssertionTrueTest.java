@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * AssertionTrueStringUtilsTest class
+ * StringUtilsAssertionTrueTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 
 @SuppressWarnings("ConstantConditions")
-public class AssertionTrueStringUtilsTest {
+public class StringUtilsAssertionTrueTest {
 
 	/**
 	 * Method to assert true with true condition

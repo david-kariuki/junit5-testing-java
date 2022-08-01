@@ -5,6 +5,8 @@
  * @apiNote - This class contains an even number checker method
  * @since 12/7/2022
  */
+
+
 public class OddEven {
 
 	/**

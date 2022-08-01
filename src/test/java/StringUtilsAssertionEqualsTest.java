@@ -1,5 +1,5 @@
 /**
- * AssertionNotEqualsStringUtilsTest class
+ * AssertionEquals_StringUtilsTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
@@ -10,35 +10,35 @@ import org.junit.jupiter.api.Test;
 
 import java.util.function.Supplier;
 
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SuppressWarnings("ConstantConditions")
-public class AssertionNotEqualsStringUtilsTest {
+public class StringUtilsAssertionEqualsTest {
 
 
 	/**
-	 * Test method to test for NotEquals with assertNull after passing null
+	 * Test method to test for Equals with assertNull after passing null
 	 */
 	@Test
 	void givenNullString_NullReturned() {
 		String actual = StringUtils.reverse(null);
 		String expected = null;
 
-		assertNotEquals(expected, actual); // Assert without message
+		assertEquals(expected, actual); // Assert without message
 	}
 
 	/**
-	 * Test method to test for NotEquals with assertNull with message after passing empty string ("")
+	 * Test method to test for Equals with assertNull with message after passing empty string ("")
 	 */
 	@Test
 	void givenEmptyString_EmptyStringReturnedWithMessage() {
 		String actual = StringUtils.reverse("");
 		String expected = "";
-		assertNotEquals(expected, actual, "The actual string should be null -> Passed : \"\" !!"); // Assert with message
+		assertEquals(expected, actual, "The actual string should be null -> Passed : \"\" !!"); // Assert with message
 	}
 
 	/**
-	 * Test method to test for NotEquals with assertNull with message after passing String to reverse
+	 * Test method to test for Equals with assertNull with message after passing String to reverse
 	 */
 	@Test
 	void givenNonNullString_ReversedStringReturned() {
@@ -46,11 +46,11 @@ public class AssertionNotEqualsStringUtilsTest {
 		String expected = "DCBA";
 		Supplier<String> messageSupplier = () -> "The actual string should be null -> Passed : " + actual + " !!";
 
-		assertNotEquals(expected, actual, messageSupplier); // Assert with java 8 MessageSupplier
+		assertEquals(expected, actual, messageSupplier); // Assert with java 8 MessageSupplier
 	}
 
 	/**
-	 * Test method to test for NotEquals with assertNull with message after passing String to reverse
+	 * Test method to test for Equals with assertNull with message after passing String to reverse
 	 * Intentionally added falsified expected output
 	 */
 	@Test
@@ -59,6 +59,6 @@ public class AssertionNotEqualsStringUtilsTest {
 		String expected = "ABCD";
 		Supplier<String> messageSupplier = () -> "The actual string should be null -> Passed : " + actual + " !!";
 
-		assertNotEquals(expected, actual, messageSupplier); // Assert with java 8 MessageSupplier
+		assertEquals(expected, actual, messageSupplier); // Assert with java 8 MessageSupplier
 	}
 }
