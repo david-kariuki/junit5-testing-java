@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
  */
 
 @SuppressWarnings("ConstantConditions")
-public class AssertionFalseStringUtilsTest {
+public class AssertFalseStringUtilsTest {
 
     /**
      * Method to test assert false with false condition

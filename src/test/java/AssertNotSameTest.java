@@ -1,5 +1,5 @@
 /**
- * AssertionNotSameTest class
+ * AssertNotSameTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for JUnit Assertion - Not Same
@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertNotSame;
 
 
 @SuppressWarnings("ExcessiveLambdaUsage")
-public class AssertionNotSameTest {
+public class AssertNotSameTest {
 
     /**
      * Method to test AssertionNotSame with different object

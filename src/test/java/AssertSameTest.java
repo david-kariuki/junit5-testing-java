@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
 /**
- * AssertionSameTest class
+ * AssertSameTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for JUnit Assertion - Same
@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertSame;
  */
 
 @SuppressWarnings("ExcessiveLambdaUsage")
-public class AssertionSameTest {
+public class AssertSameTest {
 
     /**
      * Method to test assertion same with same object
