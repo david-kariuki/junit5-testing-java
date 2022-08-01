@@ -2,7 +2,7 @@
  * AssertThrowsTest class
  *
  * @author David Kariuki
- * @since 12/7/2022
+ * @since 1/8/2022
  */
 
 import org.junit.jupiter.api.Test;
