@@ -1,5 +1,5 @@
 /**
- * AssertTimeout class
+ * AssertTimeoutPreemptivelyTest class
  *
  * @author David Kariuki
  * @since 1/8/2022
