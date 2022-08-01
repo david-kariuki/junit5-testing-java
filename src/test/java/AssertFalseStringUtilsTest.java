@@ -1,17 +1,18 @@
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertFalse;
-
 /**
- * AssertionTrueStringUtilsTest class
+ * AssertFalseStringUtilsTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the StringUtils.java class
  * @since 12/7/2022
  */
 
-@SuppressWarnings("ConstantConditions")
-public class AssertionFalseStringUtilsTest {
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
+@SuppressWarnings("ALL")
+public class AssertFalseStringUtilsTest {
 
     /**
      * Method to test assert false with false condition
