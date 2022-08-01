@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * @since 12/7/2022
  */
 
-@SuppressWarnings("ConstantConditions")
+@SuppressWarnings({"ConstantConditions", "ExcessiveLambdaUsage"})
 public class StringUtilsAssertionTrueTest {
 
 	/**
