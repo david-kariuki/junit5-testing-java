@@ -7,7 +7,7 @@
 This is a java project to learn JUnit testing. Feel free to click on discussions for any comments, feedback, questions etc.
 
 
-### 1. Assertions covered
+### 1. ASSERTIONS
 
 | # | **Assertion** |
 |-|-|
@@ -25,3 +25,14 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 | 12. | assertThrows() |
 | 13. | assertTimeout() |
 | 14. | assertTimeoutPreemtively() |
+|||
+
+
+2. ### LIFECYCLE CALLBACKS
+|||
+|-|-|
+| 1. | @BeforeEach |
+| 2. | @AfterEach |
+| 3. | @BeforeAll |
+| 4. | @AfterAll |
+|||
