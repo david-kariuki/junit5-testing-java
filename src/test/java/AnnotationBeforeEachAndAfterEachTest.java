@@ -3,17 +3,16 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * AnnotationBeforeEachAndAfterEach class
+ * AnnotationBeforeEachAndAfterEachTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the assertions @BeforeEach and @AfterEach
  * @since 7/8/2022
  */
 
-@SuppressWarnings("NewClassNamingConvention")
-public class AnnotationBeforeEachAndAfterEach {
+public class AnnotationBeforeEachAndAfterEachTest {
 
-    public AnnotationBeforeEachAndAfterEach() {
+    public AnnotationBeforeEachAndAfterEachTest() {
         System.out.println("LifecycleTest - Constructor got executed !!!");
     }
 

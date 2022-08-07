@@ -1,16 +1,15 @@
 import org.junit.jupiter.api.*;
 
 /**
- * AnnotationBeforeAllAndAfterAll class
+ * AnnotationBeforeAllAndAfterAllTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the assertions @beforeAll and @AfterAll
  * @since 7/8/2022
  */
 
-@SuppressWarnings("NewClassNamingConvention")
 @DisplayName("Annotations @BeforeAll and @AfterAll")
-public class AnnotationBeforeAllAndAfterAll {
+public class AnnotationBeforeAllAndAfterAllTest {
 
     @DisplayName("@BeforeAll Test Method")
     @BeforeAll
@@ -18,7 +17,7 @@ public class AnnotationBeforeAllAndAfterAll {
         System.out.println("LifecycleTest - beforeAll() got executed !!!");
     }
 
-    public AnnotationBeforeAllAndAfterAll() {
+    public AnnotationBeforeAllAndAfterAllTest() {
         System.out.println("LifecycleTest - Constructor got executed !!!");
     }
 
