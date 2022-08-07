@@ -27,12 +27,22 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 | 14. | assertTimeoutPreemtively() |
 |||
 
+<br>
 
 2. ### LIFECYCLE CALLBACKS
-|||
+| # | **Callback** |
 |-|-|
 | 1. | @BeforeEach |
 | 2. | @AfterEach |
 | 3. | @BeforeAll |
 | 4. | @AfterAll |
+|||
+
+<br>
+
+3. ### DISPLAY NAMES
+| # | **Annotation** | **Scope** |
+|-|-|-|
+| 1. | @DisplayName | Test Class |
+| 2. | @DisplayName | Test Methods |
 |||
