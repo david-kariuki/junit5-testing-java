@@ -8,7 +8,6 @@ import org.junit.jupiter.api.*;
  * @since 7/8/2022
  */
 
-@SuppressWarnings("NewClassNamingConvention")
 @DisplayName("Testing Dependency Injection")
 public class DependencyInjectionTestInfoParameterTest {
 
