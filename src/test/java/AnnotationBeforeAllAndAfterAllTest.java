@@ -1,19 +1,24 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 /**
- * AnnotationBeforeEachAndAfterEach class
+ * AnnotationBeforeAllAndAfterAllTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains test methods for the assertions @BeforeEach and @AfterEach
+ * @apiNote - This test class contains test methods for the assertions @beforeAll and @AfterAll
  * @since 7/8/2022
  */
 
 @SuppressWarnings("NewClassNamingConvention")
-public class AnnotationBeforeEachAndAfterEach {
+@DisplayName("Annotations @BeforeAll and @AfterAll")
+public class AnnotationBeforeAllAndAfterAllTest {
 
-    public AnnotationBeforeEachAndAfterEach() {
+    @DisplayName("@BeforeAll Test Method")
+    @BeforeAll
+    public static void beforeAll() {
+        System.out.println("LifecycleTest - beforeAll() got executed !!!");
+    }
+
+    public AnnotationBeforeAllAndAfterAllTest() {
         System.out.println("LifecycleTest - Constructor got executed !!!");
     }
 
@@ -35,5 +40,11 @@ public class AnnotationBeforeEachAndAfterEach {
     @AfterEach
     public void afterEach() {
         System.out.println("LifecycleTest - afterEach() got executed !!!");
+    }
+
+    @DisplayName("@AfterAll Test Method")
+    @AfterAll
+    public static void afterAll() {
+        System.out.println("LifecycleTest - afterAll() got executed !!!");
     }
 }
