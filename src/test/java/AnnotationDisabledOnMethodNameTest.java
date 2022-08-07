@@ -6,6 +6,11 @@ import org.junit.jupiter.api.*;
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the assertions @beforeAll and @AfterAll.
  * Test 1 and Test 3 will be disabled using the @Disabled annotation
+ *
+ * <p>
+ * @Disabled annotation on @Test method
+ * Applying @Disabled annotation on the test method will make the test method disabled. It will be skipped
+ * from execution.
  * @since 7/8/2022
  */
 

@@ -12,6 +12,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the EnabledOnJre and @DisabledOnJre
+ *
+ * <p>
+ * @DisabledOnJre and
+ * @EnabledOnJre .
+ * Junit 5 helps us to disable or enable test cases using various conditions.
+ * JUnit Jupiter API provides annotations in org.junit.jupiter.api.condition package to enable/disable tests based on
+ * a certain condition. The annotations provided by API can be applied to test methods as well as the class itself.
+ * The two annotations which are applied to disable/enable tests based on the particular version of the Java Runtime
+ * Environment (JRE) are - @DisabledOnJre and @EnabledOnJre.
  * @since 7/8/2022
  */
 

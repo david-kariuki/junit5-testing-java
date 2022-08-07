@@ -3,12 +3,19 @@
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for JUnit Assertion - Not Same
+ *
+ * <p>
+ * @note assertNotSame() method
+ * Assertions API provide static assertNotSame() method. This method helps us in validating that expected and actual
+ * do not refer to the exact same object. JUnit uses == operator to perform this assert.
+ * - If the actual and expected value refers to the same object then the test case will fail.
+ * - If the actual and expected value does not refer to the same object then the test case will pass.
  * @since 12/7/2022
  */
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertNotSame;
 
+import static org.junit.jupiter.api.Assertions.assertNotSame;
 
 @SuppressWarnings("ExcessiveLambdaUsage")
 public class AssertNotSameTest {
