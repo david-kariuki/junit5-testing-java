@@ -2,7 +2,7 @@
  * AssertIterableEqualsTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains test methods for the StringUtils.java class
+ * @apiNote - This test class contains test methods for the classes.StringUtils.java class
  * @since 1/8/2022
  */
 

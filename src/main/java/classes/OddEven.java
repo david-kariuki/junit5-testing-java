@@ -1,5 +1,7 @@
+package classes;
+
 /**
- * OddEven class
+ * classes.OddEven class
  *
  * @author David Kariuki
  * @apiNote - This class contains an even number checker method

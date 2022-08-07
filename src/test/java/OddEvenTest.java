@@ -2,10 +2,11 @@
  * OddEvenTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains test methods for the OddEven.java class
+ * @apiNote - This test class contains test methods for the classes.OddEven.java class
  * @since 12/7/2022
  */
 
+import classes.OddEven;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

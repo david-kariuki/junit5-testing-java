@@ -2,10 +2,11 @@
  * AssertNotNullTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains test methods for the StringUtils.java class
+ * @apiNote - This test class contains test methods for the classes.StringUtils.java class
  * @since 12/7/2022
  */
 
+import classes.StringUtils;
 import org.junit.jupiter.api.Test;
 
 import java.util.function.Supplier;

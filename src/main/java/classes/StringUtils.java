@@ -1,5 +1,7 @@
+package classes;
+
 /**
- * StringUtils class
+ * classes.StringUtils class
  *
  * @author David Kariuki
  * @apiNote - This class contains a string reverse method
