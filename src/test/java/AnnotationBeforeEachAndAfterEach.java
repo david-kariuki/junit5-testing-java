@@ -3,11 +3,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * AssertEqualsTest class
+ * AnnotationBeforeEachAndAfterEach class
  *
  * @author David Kariuki
- * @apiNote - This test class contains test methods for the assertions @beforeEach and @AfterEach
- * @since 12/7/2022
+ * @apiNote - This test class contains test methods for the assertions @BeforeEach and @AfterEach
+ * @since 7/8/2022
  */
 
 @SuppressWarnings("NewClassNamingConvention")
