@@ -2,7 +2,13 @@
  * ParameterizedWithValueSourceTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains parameterized test methods for the classes.OddEven.java class
+ * @apiNote - This test class contains parameterized test methods for @ValueSource ParameterizedTest
+ *
+ * <p>
+ * @note @ValueSource
+ * @ValueSource is one of the simplest ways to pass arguments array to @ParameterizedTest method.
+ * This array can be of following types - (short, byte, int, long, float, double, char, java.lang.String,
+ * java.lang.Class
  * @since 12/7/2022
  */
 

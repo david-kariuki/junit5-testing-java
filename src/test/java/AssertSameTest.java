@@ -7,6 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertSame;
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for JUnit Assertion - Same
+ *
+ * <p>
+ * @note assertSame() method
+ * Assertions API provide static assertSame() method. This method helps us in validating that expected and
+ * actual refer to the exact same object. JUnit uses == operator to perform this assert.
+ * - If the actual and expected value refers to the same object then the test case will pass.
+ * - If the actual and expected value does not refer to the same object then the test case will fail.
  * @since 12/7/2022
  */
 

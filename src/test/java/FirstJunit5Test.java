@@ -12,12 +12,11 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class FirstJunit5Test {
 
-
-	/**
-	 * Test method with fail assertion
-	 */
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
+    /**
+     * Test method with fail assertion
+     */
+    @Test
+    void test() {
+        fail("Not yet implemented");
+    }
 }

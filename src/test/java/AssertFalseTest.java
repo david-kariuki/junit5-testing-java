@@ -1,18 +1,23 @@
 /**
- * AssertFalseStringUtilsTest class
+ * AssertFalseTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the classes.StringUtils.java class
+ *
+ * <p>
+ * @note Assertions API provide static assertFalse() method.
+ * This method helps us in validating that the actual value supplied to it is false.
+ * - If the actual value is false then test case will pass.
+ * - If the actual value is true then test case will fail.
  * @since 12/7/2022
  */
-
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 @SuppressWarnings("ALL")
-public class AssertFalseStringUtilsTest {
+public class AssertFalseTest {
 
     /**
      * Method to test assert false with false condition

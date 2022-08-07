@@ -1,17 +1,26 @@
+/**
+ * AssumingThatTest class
+ *
+ * @author David Kariuki
+ * @apiNote - This test class contains test methods for the AssumeThat assumption
+ *
+ * <p>
+ * @note AssumingThat()
+ * Assumptions API in JUnit 5 has a static utility method called, assumingThat(). This method takes a boolean
+ * assumption and an Executable. It validates the given assumption and based on its outcome it decides whether
+ * to execute an Executable or not.
+ * - If the assumption is invalid, this method does nothing.
+ * - If the supplied assumption is valid, it executes the supplied Executable.
+ * @since 7/8/2022
+ */
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
-/**
- * AssumeThatTest class
- *
- * @author David Kariuki
- * @apiNote - This test class contains test methods for the AssumeThat assumption
- * @since 7/8/2022
- */
 
-public class AssumeThatTest {
+public class AssumingThatTest {
 
     /**
      * Test method to test assumeThat assumption for true condition

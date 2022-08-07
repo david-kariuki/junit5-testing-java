@@ -1,15 +1,21 @@
-import org.junit.jupiter.api.Test;
-import org.opentest4j.TestAbortedException;
-
-import static org.junit.jupiter.api.Assumptions.assumeFalse;
-
 /**
  * AssumeFalseTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the AssumeFalse assumption
+ *
+ * <p>
+ * @note assumeFalse()
+ * Assumptions API in JUnit 5 has a static utility method called as assumeFalse(). It validates the given assumption to false.
+ * - If the assumption is false then test proceeds to execution.
+ * - If the assumption is true then test execution is aborted.
  * @since 7/8/2022
  */
+
+import org.junit.jupiter.api.Test;
+import org.opentest4j.TestAbortedException;
+
+import static org.junit.jupiter.api.Assumptions.assumeFalse;
 
 public class AssumeFalseTest {
 

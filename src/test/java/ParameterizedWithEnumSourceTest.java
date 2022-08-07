@@ -1,8 +1,12 @@
 /**
- * ParameterizedWithValueSourceTest class
+ * ParameterizedWithEnumSourceTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains parameterized test methods for the classes.OddEven.java class
+ * @apiNote - This test class contains parameterized test methods for  Parameterized Test@EnumSource
+ *
+ * <p>
+ * @note @EnumSource
+ * @EnumSource allows us to pass enum constants to @ParameterizedTest method.
  * @since 12/7/2022
  */
 

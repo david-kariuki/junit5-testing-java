@@ -3,6 +3,12 @@
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the classes.StringUtils.java class
+ *
+ * <p>
+ * @note assertIterableEquals() method
+ * Assertions API provide static assertIterableEquals() method. This method helps us in validating that expected and
+ * actual iterables are deeply equal. By, deeply equal we mean that number and order of elements in the collection
+ * must be the same, as well as iterated elements must be equal.
  * @since 1/8/2022
  */
 

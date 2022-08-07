@@ -10,6 +10,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the @EnabledIfSystemProperty and @DisabledIfSystemProperty
+ *
+ * <p>
+ * @DisabledIfSystemProperty and
+ * @EnabledIfSystemProperty .
+ * Junit 5 helps us to disable or enable test cases using various conditions.
+ * JUnit Jupiter API provides annotations in org.junit.jupiter.api.condition package to enable/disable tests based
+ * on a certain condition. The annotations provided by API can be applied to test methods as well as the class itself.
+ * The two annotations which use system properties and specified regex to disable or enable tests
+ * are - @DisabledIfSystemProperty and @EnabledIfSystemProperty.
  * @since 7/8/2022
  */
 

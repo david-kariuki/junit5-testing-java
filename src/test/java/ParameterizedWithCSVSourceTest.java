@@ -3,9 +3,9 @@
  *
  * @author David Kariuki
  * @apiNote - This test class contains parameterized test methods for the classes.OddEven.java class
- * @note CsvSource
  *
  * <p>
+ * @note CsvSource
  * @CsvSource allows you to provide parameter lists as comma-separated custom-delimiter separated values.
  * @CsvSource annotation uses single quote along with comma-separated delimiter to distinguish a csv value from others.
  * E.g., {“one, two”} will result to 2 arguments as - “one”, “two”.

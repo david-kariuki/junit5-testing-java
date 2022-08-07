@@ -1,8 +1,14 @@
 /**
- * ParameterizedWithValueSourceTest class
+ * ParameterizedWithMethodSourceTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains parameterized test methods for the classes.OddEven.java class
+ * @apiNote - This test class contains parameterized test methods for @MethodSource ParameterizedTest
+ *
+ * <p>
+ * @note @MethodSource
+ * @MethodSource allows us to specify a factory method for different test arguments.
+ * This factory method must be static and can be present in the same class or any other class too.
+ * The factory method should return Stream, Iterator, Iterable or array of elements to @ParameterizedTest method.
  * @since 12/7/2022
  */
 

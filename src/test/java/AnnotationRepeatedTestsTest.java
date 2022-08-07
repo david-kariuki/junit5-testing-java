@@ -35,7 +35,7 @@ public class AnnotationRepeatedTestsTest {
     /**
      * Repeated test with DisplayName
      */
-    @RepeatedTest(name="{displayName} - {currentRepetition}/{totalRepetitions}",
+    @RepeatedTest(name = "{displayName} - {currentRepetition}/{totalRepetitions}",
             value = 5)
     @DisplayName("Repeated test")
     public void repeatedTestWithDisplayName() {

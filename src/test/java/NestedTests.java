@@ -1,17 +1,27 @@
-import org.junit.jupiter.api.*;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 /**
  * AnnotationDisabledOnClassNameTest class
  *
  * @author David Kariuki
  * @apiNote - This class contains nested tests
+ *
+ * <p>
+ * @note @Nested
+ * @Nested annotation provides tests creator more functionality to show the relationship among several groups of tests.
+ * This relationship is achieved by providing nested classes to the main test class.
+ * But, by default nested classes don’t participate in test execution. In order to provide testing capabilities to
+ * nested classes @Nested annotation is used.
  * @since 7/8/2022
  */
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Nested Tests")
 public class NestedTests {
