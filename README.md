@@ -46,3 +46,34 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 | 1. | @DisplayName | Test Class |
 | 2. | @DisplayName | Test Methods |
 |||
+
+4. ### DEPENDENCY INJECTION:
+   - Constructors and Methods - ***TestInfo Parameter***
+
+<br>
+
+5. ASSUMPTIONS
+| # | **Assumption** |
+|-|-|
+| 1. | assumeTrue() |
+| 2. | assumeFalse() |
+| 3. | assumingThat() |
+|||
+
+<br>
+
+6. OTHER ANNOTATIONS
+| # | **Annottation** |
+|-|-|
+| 1. | @Disable |
+| 2. | @Disable |
+| 3. | @Nested |
+| 4. | @ParameterizedTest - @ValueSource |
+| 5. | @ParameterizedTest - @EnumSource |
+| 6. | @ParameterizedTest - @MethodSource |
+| 7. | @ParameterizedTest - @CsvSource |
+| 8. | @ParameterizedTest - @CsvFileSource |
+| 9. | @RepeatedTest |
+|||
+
+<br>
