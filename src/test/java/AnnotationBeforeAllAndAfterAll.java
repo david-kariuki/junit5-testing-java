@@ -1,11 +1,11 @@
 import org.junit.jupiter.api.*;
 
 /**
- * AssertEqualsTest class
+ * AnnotationBeforeAllAndAfterAll class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the assertions @beforeAll and @AfterAll
- * @since 12/7/2022
+ * @since 7/8/2022
  */
 
 @SuppressWarnings("NewClassNamingConvention")
