@@ -6,6 +6,7 @@
 
 This is a java project to learn JUnit testing. Feel free to click on discussions for any comments, feedback, questions etc.
 
+<br>
 
 ### 1. ASSERTIONS
 
@@ -30,7 +31,7 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 <br>
 
 2. ### LIFECYCLE CALLBACKS
-3. 
+
 | # | **Callback** |
 |-|-|
 | 1. | @BeforeEach |
@@ -42,11 +43,14 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 <br>
 
 3. ### DISPLAY NAMES
+
 | # | **Annotation** | **Scope** |
 |-|-|-|
 | 1. | @DisplayName | Test Class |
 | 2. | @DisplayName | Test Methods |
 |||
+
+<br>
 
 4. ### DEPENDENCY INJECTION:
    - Constructors and Methods - ***TestInfo Parameter***
@@ -54,6 +58,7 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 <br>
 
 5. ASSUMPTIONS
+
 | # | **Assumption** |
 |-|-|
 | 1. | assumeTrue() |
@@ -64,6 +69,7 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 <br>
 
 6. OTHER ANNOTATIONS
+
 | # | **Annottation** |
 |-|-|
 | 1. | @Disable |
