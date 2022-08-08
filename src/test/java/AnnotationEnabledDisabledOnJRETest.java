@@ -1,8 +1,7 @@
 import jdk.jfr.Enabled;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.condition.DisabledOnJre;
-import org.junit.jupiter.api.condition.EnabledOnJre;
-import org.junit.jupiter.api.condition.JRE;
+import org.junit.jupiter.api.condition.*;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -55,5 +54,19 @@ public class AnnotationEnabledDisabledOnJRETest {
     @Test
     void testEnabledOnJava18() {
         assertFalse(10 > 40);
+    }
+
+    @Test
+    @DisplayName("Should Run on Java version from 13 to 17")
+    @EnabledForJreRange(min = JRE.JAVA_13, max = JRE.JAVA_17)
+    void shouldRunOnJreFrom8to17() {
+        assertFalse(22 > 43);
+    }
+
+    @Test
+    @DisplayName("Should Not Run on Java version from 8 to 12")
+    @DisabledForJreRange(min = JRE.JAVA_8, max = JRE.JAVA_12)
+    void shouldNotRunOnJreFrom2to7() {
+        assertFalse(40 < 3);
     }
 }
