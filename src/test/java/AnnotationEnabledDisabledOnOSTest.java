@@ -52,7 +52,7 @@ public class AnnotationEnabledDisabledOnOSTest {
         assertFalse(10 > 50);
     }
 
-    @EnabledOnOs(OS.SOLARIS)
+    @EnabledOnOs({OS.SOLARIS, OS.FREEBSD, OS.AIX})
     @Test
     void testEnableOnSolarisOs() {
         assertFalse(15 > 40);
