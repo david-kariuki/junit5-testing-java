@@ -17,7 +17,7 @@ public class OddEven {
 	 * @param number - int
 	 * @return boolean
 	 */
-	public boolean isNumberEven(int number) {
+	public boolean isEven(int number) {
 		return number % 2 == 0;
 	}
 }

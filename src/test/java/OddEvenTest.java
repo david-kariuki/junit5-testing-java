@@ -20,7 +20,7 @@ public class OddEvenTest {
     @Test
     void givenEvenNumber_whenIsEvenIsCalled_returnTrue() {
         OddEven oddEven = new OddEven();
-        assertTrue(oddEven.isNumberEven(10));
+        assertTrue(oddEven.isEven(10));
     }
 
     /**
@@ -29,6 +29,6 @@ public class OddEvenTest {
     @Test
     void givenOddNumber_whenIsEvenIsCalled_returnedFalseIs() {
         OddEven oddEven = new OddEven();
-        assertFalse(oddEven.isNumberEven(13));
+        assertFalse(oddEven.isEven(13));
     }
 }
