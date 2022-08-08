@@ -2,7 +2,7 @@
   <profile version="1.0">
     <option name="myName" value="Project Default" />
     <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ADDITIONAL_TAGS" value="note,EnabledIfEnvironmentVariable,DisabledIfEnvironmentVariable,DisabledIfSystemProperty,EnabledIfSystemProperty,DisabledOnJre,EnabledOnJre#,EnabledOnJre,Disabled,AfterEach,BeforeEach" />
+      <option name="ADDITIONAL_TAGS" value="DisabledOnJre,EnabledOnJre" />
     </inspection_tool>
   </profile>
 </component>
