@@ -2,7 +2,7 @@
  * AnnotationTestInstanceTest class
  *
  * @author David Kariuki
- * @apiNote - This test class contains test methods for the assertions @beforeAll and @AfterAll
+ * @apiNote - This test class contains test methods for the annotation @TestInstance
  *
  * <p>
  * @note @TestInstance - PER CLASS
