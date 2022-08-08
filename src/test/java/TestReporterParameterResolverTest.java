@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * DependencyInjectionTestInfoParameterTest class
+ * TestReporterParameterResolverTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the TestInfo parameter

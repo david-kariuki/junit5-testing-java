@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
- * DependencyInjectionTestInfoParameterTest class
+ * TestInfoParameterResolverTest class
  *
  * @author David Kariuki
  * @apiNote - This test class contains test methods for the TestInfo parameter
