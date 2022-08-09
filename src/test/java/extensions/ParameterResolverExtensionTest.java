@@ -7,7 +7,6 @@
  */
 package extensions;
 
-import classes.AdditionTestInput;
 import classes.Calculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
