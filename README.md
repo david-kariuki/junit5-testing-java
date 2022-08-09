@@ -91,6 +91,7 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 | 16. | @ParameterizedTest - @CsvSource |
 | 17. | @ParameterizedTest - @CsvFileSource |
 | 18. | @RepeatedTest |
+| 19. | @TestFactory |
 |||
 
 <br>
