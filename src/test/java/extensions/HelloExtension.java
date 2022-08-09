@@ -1,5 +1,5 @@
 /**
- * SayHiExtension class
+ * HelloExtension class
  *
  * <p>
  *
@@ -21,11 +21,11 @@ package extensions;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.api.extension.TestInstancePostProcessor;
 
-public class SayHiExtension implements TestInstancePostProcessor {
+public class HelloExtension implements TestInstancePostProcessor {
     @Override
     public void postProcessTestInstance(Object testInstance, ExtensionContext extensionContext) throws Exception {
         testInstance.getClass()
                 .getMethod("setGreeting", String.class)
-                .invoke(testInstance, "Hi");
+                .invoke(testInstance, "Hello");
     }
 }

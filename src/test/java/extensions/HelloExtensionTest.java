@@ -1,3 +1,11 @@
+/**
+ * HelloExtensionTest
+ *
+ * @author David Kariuki
+ * @see extensions.HelloExtension
+ * @since 9/8/2022
+ */
+
 package extensions;
 
 import org.junit.jupiter.api.Test;
@@ -5,8 +13,8 @@ import org.junit.jupiter.api.TestReporter;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @SuppressWarnings("unused")
-@ExtendWith(SayHiExtension.class)
-public class HelloWorldTest {
+@ExtendWith(HelloExtension.class)
+public class HelloExtensionTest {
 
     private String greeting;
 
