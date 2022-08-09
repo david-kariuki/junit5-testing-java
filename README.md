@@ -30,19 +30,24 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 
 <br>
 
-2. ### LIFECYCLE CALLBACKS
+### 2. LIFECYCLE CALLBACKS
 
-| # | **Callback** |
-|-|-|
-| 1. | @BeforeEach |
-| 2. | @AfterEach |
-| 3. | @BeforeAll |
-| 4. | @AfterAll |
-|||
+| # | **JUnit 4 Callback** | **JUnit 5 Callback** |
+|-|-|-|
+| 1. | @Before      | @BeforeEach |
+| 2. | @BeforeClass | @BeforeAll |
+| 3. | @After       | @AfterEach |
+| 4. | @BeforeClass | @BeforeAll |
+| 5. | @AfterClass  | @AfterAll |
+| 6. | @RunWith     | @ExtendWith |
+| 7. | @Test        | @Test |
+| 8. | @Ignore      | @Disabled |
+| 9. | @Category    | @Tag |
+||||
 
 <br>
 
-3. ### DISPLAY NAMES
+### 3. DISPLAY NAMES
 
 | # | **Annotation** | **Scope** |
 |-|-|-|
@@ -52,12 +57,19 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 
 <br>
 
-4. ### DEPENDENCY INJECTION:
-   - Constructors and Methods - ***TestInfo Parameter***
+### 4. DEPENDENCY INJECTION:
+***For Constructors and Methods*** <br>
+   
+   | # | **Class** |
+   |-|-|
+   | 1. | TestInfoParameterResolver |
+   | 2. | TestReporterParameterResovler |
+   | 3. | RepetitionInfoParameterResolver|
+   |||
 
 <br>
 
-5. ASSUMPTIONS
+### 5. ASSUMPTIONS
 
 | # | **Assumption** |
 |-|-|
@@ -68,30 +80,65 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 
 <br>
 
-6. OTHER ANNOTATIONS
+### 6. OTHER ASSUMPTION LIBRARIES
 
-| # | **Annottation** |
+| # | **Library** |
 |-|-|
-| 1.  | @Enabled |
-| 2.  | @Disabled |
-| 3.  | @EnabledIf |
-| 4.  | @DisabledIf |
-| 4.  | @EnabledIfEnvironmentVariable |
-| 5.  | @DisabledIfEnvironmentVariable |
-| 6.  | @EnabledIfSystemProperty |
-| 7.  | @DisabledIfSystemProperty |
-| 8.  | @EnabledOnJre |
-| 9.  | @DisabledOnJre |
-| 10.  | @EnabledForJreRange |
-| 11. | @DisabledForJreRange |
-| 12. | @Nested |
-| 13. | @ParameterizedTest - @ValueSource |
-| 14. | @ParameterizedTest - @EnumSource |
-| 15. | @ParameterizedTest - @MethodSource |
-| 16. | @ParameterizedTest - @CsvSource |
-| 17. | @ParameterizedTest - @CsvFileSource |
-| 18. | @RepeatedTest |
-| 19. | @TestFactory |
+| 1. | AssertJ |
+| 2. | Hamcrest |
+| 3. | JSONAsser |
+
+<br>
+
+### 7. JUNIT 5 EXTENSIONS 
+
+| # | Extension |
+|-|-|
+| 1. | TestInstancePostProcessor |
+| 2. | ExecutionCondition |
+| 3. | Life Cycle Callback Extensions | BeforeAllCallback, BeforeEachCallback, BeforeTestExecutionCallback, AfterTestExecutionCallback, AftereachCallback, AfterAllCallback |
+| 4. | ParameterResolver |
+| 5. | TestExecutionExceptionHandler |
+|||
+
+<br>
+
+### 8. JUnit 5 EXTENSIONS REGISTRATION
+
+| # | **Registration** | Method |
+|-|-|-|
+| 1. | Declarative registration | @ExtendWith |
+| 2. | Programmatic registration | @RegisterExtension |
+| 3. | Automatic Registration | ***java.util.ServiceLoader*** |
+|||
+
+<br>
+
+### 9. OTHER ANNOTATIONS
+
+| # | **Annottation** | Purpose |
+|-|-|-|
+| 1.  | @Enabled | Enable test method |
+| 2.  | @Disabled | Disbale test method |
+| 3.  | @EnabledIf | Enable with condition |
+| 4.  | @DisabledIf | Disable with condition |
+| 4.  | @EnabledIfEnvironmentVariable | Enable for environment |
+| 5.  | @DisabledIfEnvironmentVariable | Disable for Enviroment |
+| 6.  | @EnabledIfSystemProperty | Enable for system property |
+| 7.  | @DisabledIfSystemProperty | Disable for system property |
+| 8.  | @EnabledOnJre | Enable for JRE version |
+| 9.  | @DisabledOnJre | Disable for JRE version |
+| 10.  | @EnabledForJreRange | Enable for JRE range |
+| 11. | @DisabledForJreRange | Disable for JRE range |
+| 12. | @Nested | Nested test classes |
+| 13. | @ParameterizedTest - @ValueSource | Provide values array |
+| 14. | @ParameterizedTest - @EnumSource | Provide enum source |
+| 15. | @ParameterizedTest - @MethodSource | Provide values from method |
+| 16. | @ParameterizedTest - @CsvSource | Provide values from CSV |
+| 17. | @ParameterizedTest - @CsvFileSource | Provide values from CSV file |
+| 18. | @RepeatedTest | Repeated test with count @RepeatedTest(n) |
+| 19. | @TestFactory | For dynamic tests |
+| 20. | @Tag | For tagged test - Tests Classification |
 |||
 
 <br>
