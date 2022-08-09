@@ -10,6 +10,7 @@ public class Calculator {
 
     /**
      * Method to perform addition
+     *
      * @param a - int
      * @param b - int
      * @return int
@@ -20,6 +21,7 @@ public class Calculator {
 
     /**
      * Method to perform division
+     *
      * @param a - int
      * @param b - int
      * @return int
