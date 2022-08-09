@@ -9,11 +9,39 @@ repositories {
     mavenCentral()
 }
 
+test {
+
+    testLogging {
+        events "started", "passed", "skipped", "failed"
+        showStandardStreams = true
+        exceptionFormat = "full"
+    }
+
+
+    useJUnitPlatform()
+
+    //testLogging.showStandardStreams = true
+    //testLogging.exceptionFormat = 'full'
+}
+
 dependencies {
 
+    // Implementation
+    implementation group: 'eu.benschroeder', name: 'mockito-extension', version: '4.3.0'
+
+
+    // Test Implementation
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.9.0'
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.9.0'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.9.0'
+
+    //testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-migrationsupport', version: '5.9.0'
+    // testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '4.6.1'
+    // testImplementation group: 'org.mockito', name: 'mockito-core', version: '4.6.1'
+
+
+    // Test RuntimeOnly
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
 
 test {
