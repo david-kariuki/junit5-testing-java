@@ -72,15 +72,25 @@ This is a java project to learn JUnit testing. Feel free to click on discussions
 
 | # | **Annottation** |
 |-|-|
-| 1. | @Disable |
-| 2. | @Disable |
-| 3. | @Nested |
-| 4. | @ParameterizedTest - @ValueSource |
-| 5. | @ParameterizedTest - @EnumSource |
-| 6. | @ParameterizedTest - @MethodSource |
-| 7. | @ParameterizedTest - @CsvSource |
-| 8. | @ParameterizedTest - @CsvFileSource |
-| 9. | @RepeatedTest |
+| 1.  | @Enabled |
+| 2.  | @Disabled |
+| 3.  | @EnabledIf |
+| 4.  | @DisabledIf |
+| 4.  | @EnabledIfEnvironmentVariable |
+| 5.  | @DisabledIfEnvironmentVariable |
+| 6.  | @EnabledIfSystemProperty |
+| 7.  | @DisabledIfSystemProperty |
+| 8.  | @EnabledOnJre |
+| 9.  | @DisabledOnJre |
+| 10.  | @EnabledForJreRange |
+| 11. | @DisabledForJreRange |
+| 12. | @Nested |
+| 13. | @ParameterizedTest - @ValueSource |
+| 14. | @ParameterizedTest - @EnumSource |
+| 15. | @ParameterizedTest - @MethodSource |
+| 16. | @ParameterizedTest - @CsvSource |
+| 17. | @ParameterizedTest - @CsvFileSource |
+| 18. | @RepeatedTest |
 |||
 
 <br>
