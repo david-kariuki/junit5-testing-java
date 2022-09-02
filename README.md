@@ -1,10 +1,19 @@
-# JUnitTestingProject
+# JUnit5TestingProject
 
 <br>
 
 **Hello there**, <br>
 
 This is a java project to learn JUnit testing. Feel free to click on discussions for any comments, feedback, questions etc.
+
+<br>
+
+![GitHub issues](https://img.shields.io/github/issues/david-kariuki/JUnit5TestingProject?&labelColor=black&color=eb3b5a&label=Issues&logo=issues&logoColor=black&style=for-the-badge) &nbsp;
+![GitHub Contributions](https://img.shields.io/github/contributors/david-kariuki/JUnit5TestingProject?&labelColor=black&color=8854d0&style=for-the-badge) &nbsp;
+![repo size](https://img.shields.io/github/repo-size/david-kariuki/JUnit5TestingProject?label=Repo%20Size&style=for-the-badge&labelColor=black&color=20bf6b) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/david-kariuki/JUnit5TestingProject?&labelColor=black&color=0fb9b1&style=for-the-badge) &nbsp;
+![GitHub stars](https://img.shields.io/github/stars/david-kariuki/JUnit5TestingProject?&labelColor=black&color=f7b731&style=for-the-badge) &nbsp;
+![GitHub LastCommit](https://img.shields.io/github/last-commit/david-kariuki/JUnit5TestingProject?logo=github&labelColor=black&color=d1d8e0&style=for-the-badge) &nbsp;
 
 <br>
 
